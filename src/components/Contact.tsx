@@ -4,6 +4,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
+
+// Initialize EmailJS
+emailjs.init("Cf-zIloKJIH6GQixV");
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -49,9 +53,18 @@ const Contact = () => {
       return;
     }
 
-    // Simulate form submission
+    // Send email using EmailJS
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      await emailjs.send(
+        "service_36l8axo", // Service ID
+        "template_lel4b1s", // Template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_name: "Sharat Acharjee Mugdho"
+        }
+      );
       
       toast({
         title: "Message Sent Successfully!",
@@ -61,6 +74,7 @@ const Contact = () => {
       // Reset form
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
+      console.error("EmailJS Error:", error);
       toast({
         title: "Error",
         description: "Failed to send message. Please try again.",
