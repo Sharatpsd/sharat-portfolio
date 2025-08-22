@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-5xl font-bold font-heading mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text md:text-5xl text-green-200">Hello, I'm Sharat Acharjee Mugdho A Python Full-Stack Developer</h1>
+          <h1 className="text-5xl font-bold font-heading mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent md:text-5xl">Hello, I'm Sharat Acharjee Mugdho, a Python Full-Stack Developer</h1>
           
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -36,10 +36,8 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="px-8 py-6 text-lg font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-smooth hover:scale-105 hover:shadow-lg" onClick={() => document.getElementById('portfolio')?.scrollIntoView({
-            behavior: 'smooth'
-          })}>
-              View Portfolio
+            <Button size="lg" className="px-8 py-6 text-lg font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-smooth hover:scale-105 hover:shadow-lg" onClick={() => window.open('https://drive.google.com/file/d/1CNx-n2E4kp6RseyiSO6Hkj-Dm_TX42pJ/view', '_blank')}>
+              Download My Resume
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-6 text-lg font-medium border-primary/30 text-primary hover:bg-primary/10 transition-smooth hover:scale-105" onClick={() => document.getElementById('contact')?.scrollIntoView({
             behavior: 'smooth'

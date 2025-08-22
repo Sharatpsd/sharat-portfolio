@@ -20,19 +20,7 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-6 text-primary">My Journey</h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a final-year Computer Science Engineering student at Green University of Bangladesh, 
-                  specializing in <span className="text-primary font-medium">Python development</span> and 
-                  <span className="text-secondary font-medium"> Machine Learning</span>.
-                </p>
-                <p>
-                  My expertise spans full-stack web development with Django, intelligent ML applications, 
-                  and building scalable solutions that bridge the gap between complex algorithms and 
-                  user-friendly interfaces.
-                </p>
-                <p>
-                  I believe in writing clean, efficient code that not only solves problems but creates 
-                  meaningful impact. Every project is an opportunity to learn, innovate, and push the 
-                  boundaries of what's possible with technology.
+                  I am a Computer Science and Engineering student at Green University of Bangladesh, with a growing interest in Python development and Machine Learning. My academic work and projects include full-stack web development using Django and experimenting with intelligent applications. I am committed to writing clean, efficient code and view every project as an opportunity to develop my skills and broaden my knowledge.
                 </p>
               </div>
             </CardContent>
@@ -45,34 +33,41 @@ const About = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
-                    <span className="text-2xl">📸</span>
+                    <span className="text-2xl">💻</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Photography</h4>
-                    <p className="text-muted-foreground">Capturing moments and perspectives through the lens, 
-                    exploring visual storytelling and composition.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Programming</h4>
+                    <p className="text-muted-foreground">Gaining experience in multiple programming languages and technologies through continuous practice.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center">
-                    <span className="text-2xl">🎬</span>
+                    <span className="text-2xl">🤖</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Cinematography</h4>
-                    <p className="text-muted-foreground">Creating visual narratives and experimenting with 
-                    motion, lighting, and cinematic techniques.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Machine Learning</h4>
+                    <p className="text-muted-foreground">Actively learning the fundamentals of ML with the aim of applying this knowledge in future research and projects.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
-                    <span className="text-2xl">⚽</span>
+                    <span className="text-2xl">📑</span>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Football</h4>
-                    <p className="text-muted-foreground">Team sports enthusiast, believing in collaboration, 
-                    strategy, and the pursuit of excellence both on and off the field.</p>
+                    <h4 className="font-semibold text-foreground mb-2">Research</h4>
+                    <p className="text-muted-foreground">Developing interest in academic research related to machine learning, artificial intelligence, and data-driven solutions.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center">
+                    <span className="text-2xl">🛠️</span>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-foreground mb-2">Problem-Solving</h4>
+                    <p className="text-muted-foreground">Applying analytical thinking and technical skills to solve real-world challenges and improve professional competency.</p>
                   </div>
                 </div>
               </div>
