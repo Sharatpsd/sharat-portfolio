@@ -101,14 +101,14 @@ const Contact = () => {
     {
       icon: "💼",
       label: "GitHub",
-      value: "github.com/sharatacharjee",
-      link: "https://github.com/sharatacharjee"
+      value: "github.com/Sharatpsd",
+      link: "https://github.com/Sharatpsd"
     },
     {
       icon: "🔗",
       label: "LinkedIn",
       value: "LinkedIn Profile",
-      link: "https://linkedin.com/in/sharatacharjee"
+      link: "https://www.linkedin.com/in/sharat-acharjee-49276830b"
     }
   ];
 

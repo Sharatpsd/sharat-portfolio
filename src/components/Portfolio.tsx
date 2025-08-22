@@ -14,7 +14,7 @@ interface Project {
 const Portfolio = () => {
   const projects: Project[] = [
     {
-      title: "Precision Eye Care",
+      title: "Using Machine Learning for Precision Eye Care (Ongoing)",
       description: "Advanced ML application for automatic detection of eye conditions, power measurement, and personalized treatment suggestions using computer vision and deep learning.",
       technologies: ["Python", "TensorFlow", "OpenCV", "Flask", "NumPy"],
       features: [
@@ -137,26 +137,7 @@ const Portfolio = () => {
                   </ul>
                 </div>
 
-                {/* Action Buttons */}
-                <div className="flex gap-3 mt-auto">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="flex-1 text-primary border-primary/30 hover:bg-primary/10"
-                    onClick={() => window.open(project.githubLink, '_blank')}
-                  >
-                    View Code
-                  </Button>
-                  {project.demoLink && (
-                    <Button
-                      size="sm"
-                      className="flex-1 bg-primary hover:bg-primary/90"
-                      onClick={() => window.open(project.demoLink, '_blank')}
-                    >
-                      Live Demo
-                    </Button>
-                  )}
-                </div>
+                {/* Project actions removed as requested */}
               </CardContent>
             </Card>
           ))}
