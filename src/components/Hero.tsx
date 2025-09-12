@@ -16,18 +16,18 @@ const Hero = () => {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-5xl font-bold font-heading mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent md:text-5xl">Hello, I'm Sharat Acharjee Mugdho, a Python Full-Stack Developer</h1>
+          <h1 className="text-5xl font-bold font-heading mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent md:text-5xl">Hello, I'm Sharat Acharjee Mugdho</h1>
           
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Python Full-Stack Developer & Machine Learning Engineer
+            A Python Django Devoloper
             <br />
             <span className="text-primary font-medium">Building intelligent web solutions</span>
           </p>
           
           {/* Specialties */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {["Django", "Machine Learning", "Full-Stack", "Python"].map((skill, index) => <span key={skill} className="px-4 py-2 bg-card/50 backdrop-blur border border-primary/20 rounded-full text-sm font-medium transition-smooth hover:bg-primary/10 hover:border-primary/40" style={{
+            {["Python", "Django", "React", "JavaScript"].map((skill, index) => <span key={skill} className="px-4 py-2 bg-card/50 backdrop-blur border border-primary/20 rounded-full text-sm font-medium transition-smooth hover:bg-primary/10 hover:border-primary/40" style={{
             animationDelay: `${index * 0.1}s`
           }}>
                 {skill}
@@ -36,8 +36,8 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="px-8 py-6 text-lg font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-smooth hover:scale-105 hover:shadow-lg" onClick={() => window.open('https://drive.google.com/file/d/1CNx-n2E4kp6RseyiSO6Hkj-Dm_TX42pJ/view', '_blank')}>
-              Download My Resume
+            <Button size="lg" className="px-8 py-6 text-lg font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-smooth hover:scale-105 hover:shadow-lg" onClick={() => window.open('https://drive.google.com/file/d/15bXfD7c_7EKPP9HCDe2AWRzWGm48e9YE/view?usp=sharing', '_blank')}>
+              Too see My Resume 
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-6 text-lg font-medium border-primary/30 text-primary hover:bg-primary/10 transition-smooth hover:scale-105" onClick={() => document.getElementById('contact')?.scrollIntoView({
             behavior: 'smooth'
