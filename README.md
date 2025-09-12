@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# 🧑‍💻 Sharat Acharjee Mugdho's Portfolio
 
-## Project info
+Welcome to my personal portfolio! I'm Sharat Acharjee Mugdho, a passionate Python Full-Stack Developer and Machine Learning Engineer. I specialize in building intelligent web solutions using modern technologies.
 
-**URL**: https://lovable.dev/projects/2561f71e-666f-4e5e-bb2e-74ba4f031853
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## 🚀 About Me
 
-**Use Lovable**
+- 💻 Full-Stack Developer with expertise in Python and Django
+- 🤖 Machine Learning enthusiast with hands-on experience in data analysis and model deployment
+- 🌐 Building scalable and efficient web applications
+- 📚 Continuous learner, always exploring new technologies and methodologies
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2561f71e-666f-4e5e-bb2e-74ba4f031853) and start prompting.
+## 🛠️ Technologies & Tools
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Languages**: Python, JavaScript, TypeScript
+- **Frameworks**: Django, React, Vite
+- **Machine Learning**: Scikit-learn, TensorFlow, Pandas
+- **Databases**: PostgreSQL, SQLite
+- **Tools**: Git, Docker, VS Code, Netlify
 
-**Use your preferred IDE**
+## 🔧 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Responsive Design**: Optimized for both desktop and mobile views
+- **Interactive UI**: Engaging user interface with smooth animations
+- **Machine Learning Integration**: Showcasing ML models and data visualizations
+- **Contact Form**: Reach out directly through the built-in contact form
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧪 Installation
 
-Follow these steps:
+To run this project locally:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```bash
+   git clone https://github.com/Sharatpsd/sharat-portfolio.git
+   cd sharat-portfolio
+Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+bash
+Copy code
+npm install
+Run the development server:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy code
 npm run dev
-```
+Open your browser and navigate to http://localhost:8080.
 
-**Edit a file directly in GitHub**
+🚀 Deployment
+This portfolio is deployed on Netlify.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+To deploy your own version:
 
-**Use GitHub Codespaces**
+Fork this repository.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Connect your forked repository to Netlify.
 
-## What technologies are used for this project?
+Set the build command to npm run build and the publish directory to dist.
 
-This project is built with:
+Deploy and enjoy your personalized portfolio!
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📬 Contact
+Feel free to reach out to me:
 
-## How can I deploy this project?
+Email: sharat@example.com
 
-Simply open [Lovable](https://lovable.dev/projects/2561f71e-666f-4e5e-bb2e-74ba4f031853) and click on Share -> Publish.
+LinkedIn: linkedin.com/in/sharatacharjee
 
-## Can I connect a custom domain to my Lovable project?
+GitHub: github.com/Sharatpsd
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🙏 Acknowledgments
+Awesome GitHub Profile README Templates for inspiration
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+GitHub Profile README Generator for creating badges and stats
