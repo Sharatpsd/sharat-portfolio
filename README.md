@@ -1,7 +1,7 @@
 # 🧑‍💻 Sharat Acharjee Mugdho's Portfolio  
 
-Live Preview  
-👉 [Click here to see my portfolio](https://mugdho-portfolio.netlify.app/)
+**Live 
+🚀 Click and see my portfolio:** [mugdho-portfolio.netlify.app](https://mugdho-portfolio.netlify.app/)
 
 Welcome to my personal portfolio!  
 I'm **Sharat Acharjee Mugdho**, a passionate **Python Django Developer**.  
