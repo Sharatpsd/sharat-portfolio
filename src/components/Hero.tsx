@@ -36,7 +36,7 @@ const Hero = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="px-8 py-6 text-lg font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-smooth hover:scale-105 hover:shadow-lg" onClick={() => window.open('https://drive.google.com/file/d/15bXfD7c_7EKPP9HCDe2AWRzWGm48e9YE/view?usp=sharing', '_blank')}>
+            <Button size="lg" className="px-8 py-6 text-lg font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-smooth hover:scale-105 hover:shadow-lg" onClick={() => window.open('https://drive.google.com/file/d/1VZhwHpYlof4pdZ61LO7tTwIajdGXGeln/view?usp=sharing', '_blank')}>
               Too see My Resume 
             </Button>
             <Button variant="outline" size="lg" className="px-8 py-6 text-lg font-medium border-primary/30 text-primary hover:bg-primary/10 transition-smooth hover:scale-105" onClick={() => document.getElementById('contact')?.scrollIntoView({
